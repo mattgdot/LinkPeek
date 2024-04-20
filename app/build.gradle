@@ -42,12 +42,7 @@ android {
 }
 
 dependencies {
-    implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
-    implementation libs.material
-    testImplementation libs.junit
-    androidTestImplementation libs.androidx.junit
-    androidTestImplementation libs.androidx.espresso.core
 }
 
 publishing {
@@ -55,7 +50,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.mattgdot'
             artifactId = 'LinkPeek'
-            version = '1.0.0'
+            version = '1.0.6'
 
             afterEvaluate {
                 from components.release
