@@ -53,7 +53,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.mattgdot'
             artifactId = 'LinkPeek'
-            version = '1.0.8'
+            version = '1.0.9'
 
             afterEvaluate {
                 from components.release
